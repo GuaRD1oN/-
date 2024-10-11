@@ -1,0 +1,237 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+#bg_1 {
+    background-color: rgb(82, 147, 22);
+    height: 500px;
+    position: relative;
+}
+
+#option{
+    margin: 30px;
+    position: relative;
+    top: -500px;
+}
+
+#lupa{
+    position: relative;
+    top: -530px;
+    left: 1300px;
+    z-index: 1;
+}
+
+#input{
+    height: 35px;
+    width: 180px;
+    border: 20px;
+    border-radius: 15px;
+    background-color: rgb(53, 85, 22);
+    color: black;
+    position: relative;
+    top: -567px;
+    left: 1250px;
+}
+
+.text_shapka{
+    color: aliceblue;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: -400px;
+}
+
+#CHAI{
+    position: relative;
+    top: -650px;
+    left: 800px;
+}
+#button{
+    color: aliceblue;
+    background-color: chartreuse;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    position: relative;
+    top: -650px;
+    right: 250px;
+}
+#button:hover{
+    background-color: rgb(38, 73, 4);
+}
+
+#fon-1{
+    height: 500px;
+    background-color:   rgb(53, 85, 22);
+    position: relative;
+    top: -550px;
+}
+
+#text_in_fon1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: -850px;
+    margin-left: 600px;
+    z-index: 1;
+}
+
+#video-1{
+    position: relative;
+    top: -1050px;
+    margin-left: 150px;
+}
+
+#fon_to_text{
+    background-color: rgb(112, 181, 43);
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    position: absolute;
+    top: 710px;
+    right: 195px;
+}
+
+#time_tea{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 1100px;
+    margin-left: 1050px;
+}
+
+#tea{
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 1100px;
+    margin-left: 500px;
+}
+
+#text_in_fon2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 1200px;
+    margin-left: 50px;
+}
+
+#fon-2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(83, 72, 53);
+    position: absolute;
+    top: 1100px;    
+}
+
+#button2{
+    color: aliceblue;
+    background-color: rgb(165, 149, 40);
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    position: absolute;
+    top: 1400px;
+    margin-left: 200px;
+}
+
+#fon-3{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(62, 45, 33);
+    position: absolute;
+    top: 1650px;
+    z-index: -1;
+}
+
+#rotate-text{
+    color: aliceblue;
+    font-size: 50px;
+    transform: rotate(-90deg); 
+            transform-origin: left top; 
+            margin-left: 50px; 
+            white-space: nowrap; 
+}
+
+#green-tea{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 2000px;
+    left: 200px;
+}
+
+#indian-tea{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 2000px;
+    left: 900px;
+}
+
+#video-2{
+    position: absolute;
+    top: 1680px;
+    left:900px;
+}
+
+#video-3{
+    position: absolute;
+    top: 1680px;
+    left:200px;
+}
+
+footer {
+    background-color: #2c3e50; 
+    color: white; 
+    padding: 20px;
+    text-align: left; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: auto; 
+}
+
+.footer-info, .footer-links, .footer-social {
+    width: 30%;
+}
+
+.footer-links ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.footer-links li {
+    margin: 5px 0; 
+}
+
+.footer-links a, .footer-social a {
+    color: white;
+    text-decoration: none; 
+}
+
+.footer-social a {
+    display: block; 
+    margin: 5px 0; 
+}
+
+.footer-bottom {
+    text-align: center; 
+    margin-top: 20px; 
+}
